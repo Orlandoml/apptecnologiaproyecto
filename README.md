@@ -1,102 +1,44 @@
-# Tu Nombre del Proyecto
+# App Tecnologia Movil
 
-Una breve descripción de qué hace tu proyecto y por qué es útil.
+AppTecnologia es una aplicación para Android desarrollada en Kotlin con Jetpack Compose que explora los conceptos de APIs, IAs, y bases de datos con Room.
 
-## 🚀 Características
+## Integrantes
 
-- Característica principal 1
-- Característica principal 2
-- Característica principal 3
-- Fácil de usar e implementar
+- JORGE ALEJANDRO MAGAÑA HERNANDEZ
+- ORLANDO MORFIN LAZO DE LA VEGA
 
-## 📋 Requisitos Previos
+## Fecha y Grupo
+LDSM405
+04/12/2025
 
-Antes de comenzar, asegúrate de tener instalado:
+## Características
 
-- [Node.js](https://nodejs.org/) versión 14 o superior
-- [Git](https://git-scm.com/)
-- Una cuenta en [GitHub](https://github.com/)
+*   **Navegación Intuitiva:** Interfaz de usuario limpia con una barra de navegación inferior para cambiar entre las diferentes secciones de la aplicación.
+*   **Sección de APIs:** Muestra una lista de las APIs más utilizadas en el desarrollo de Android.
+*   **Gestión de IAs:** Permite a los usuarios agregar, editar y eliminar información sobre diferentes Inteligencias Artificiales.
+*   **Base de Datos Local:** Utiliza Room para persistir los datos de las IAs, asegurando que la información esté disponible incluso después de cerrar la aplicación.
 
-## 📥 Instalación
+## Tecnologías Utilizadas
 
-1. Clona el repositorio:
-git clone https://github.com/tu-usuario/nombre-del-proyecto.git
+*   **Lenguaje:** [Kotlin](https://kotlinlang.org/)
+*   **Interfaz de Usuario:** [Jetpack Compose](https://developer.android.com/jetpack/compose)
+*   **Base de Datos:** [Room](https://developer.android.com/training/data-storage/room)
+*   **Navegación:** [Navigation Compose](https://developer.android.com/jetpack/compose/navigation)
+*   **Carga de Imágenes:** [Coil](https://coil-kt.github.io/coil/)
+*   **Íconos:** [Material Icons Extended](https://developer.android.com/jetpack/compose/resources#icons)
+*   **Procesador de Anotaciones:** [KSP](https://kotlinlang.org/docs/ksp-overview.html)
 
-2. Entra en la carpeta del proyecto:
-cd nombre-del-proyecto
+## Estructura del Proyecto
 
-3. Instala las dependencias:
-npm install
+*   `app/src/main/java/com/example/apptecnologia/data`: Contiene la entidad de la base de datos (`IAEntity`), el DAO (`IADao`), y la clase de la base de datos (`AppDatabase`).
+*   `app/src/main/java/com/example/apptecnologia/viewmodel`: Incluye el `IAViewModel` que se encarga de la lógica de negocio y la comunicación con la base de datos.
+*   `app/src/main/java/com/example/apptecnologia/ui`: Componentes de la interfaz de usuario de Jetpack Compose.
+*   `app/src/main/java/com/example/apptecnologia/MainActivity.kt`: El punto de entrada principal de la aplicación.
 
-## 🎯 Uso
+## Instalación y Ejecución
 
-Ejemplo básico de cómo usar tu proyecto:
+1.  Clona el repositorio: `git clone https://github.com/tu_usuario/AppTecnologia.git`
+2.  Abre el proyecto en Android Studio.
+3.  Sincroniza el proyecto con los archivos de Gradle.
+4.  Ejecuta la aplicación en un emulador o en un dispositivo físico.
 
-npm start
-
-O si es un proyecto específico:
-
-// Ejemplo de código aquí
-const proyecto = require('nombre-del-proyecto');
-proyecto.hacer();
-
-## 📁 Estructura del Proyecto
-
-nombre-del-proyecto/
-├── src/
-│   ├── index.js
-│   └── utils.js
-├── test/
-│   └── test.js
-├── README.md
-├── package.json
-└── .gitignore
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Lenguaje**: Java / Kotlin / JavaScript / Otra
-- **Framework**: Spring Boot / React / Android Jetpack / Otra
-- **Base de Datos**: MySQL / MongoDB / SQLite / Otra
-- **Herramientas**: Git / Docker / Otras
-
-## 📚 Documentación
-
-Para documentación más detallada, consulta la [wiki del proyecto](https://github.com/tu-usuario/nombre-del-proyecto/wiki) o los archivos de documentación en la carpeta `docs/`.
-
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Por favor:
-
-1. Haz un fork del proyecto
-2. Crea una rama para tu característica (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## 👤 Autor
-
-**Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: tu-email@ejemplo.com
-
-## 📞 Soporte
-
-Si tienes preguntas o necesitas ayuda, puedes:
-- Abrir un [Issue](https://github.com/tu-usuario/nombre-del-proyecto/issues)
-- Contactarme directamente
-- Consultar la documentación
-
-## ⭐ Agradecimientos
-
-- Agradecimientos a personas o proyectos que inspiraron este trabajo
-- Recursos o tutoriales que fueron útiles
-
----
-
-**Últimas actualizaciones**: [Fecha]
-
-Made with ❤️ by [Tu Nombre]
